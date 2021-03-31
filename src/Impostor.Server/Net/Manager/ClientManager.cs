@@ -21,6 +21,7 @@ namespace Impostor.Server.Net.Manager
         private static readonly HashSet<int> SupportedVersions = new HashSet<int>
         {
             GameVersion.GetVersion(2021, 3, 5), // 2021.3.5
+            GameVersion.GetVersion(2021, 3, 31), // 2021.3.31
         };
 
         private static readonly string ServerBrand = $"Impostor {DotnetUtils.GetVersion()}";
